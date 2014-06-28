@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  petsname: MyString
+  dateofnextappointment: 2014-06-24
+  reasonforvisit: MyString
+
+two:
+  petsname: MyString
+  dateofnextappointment: 2014-06-24
+  reasonforvisit: MyString

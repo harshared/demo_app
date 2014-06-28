@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Dateofvisit:</strong>
+  <%= @receptionist.dateofvisit %>
+</p>
+
+<p>
+  <strong>Pet:</strong>
+  <%= @receptionist.pet %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @receptionist.customer %>
+</p>
+
+<p>
+  <strong>Requiresreminderforrequirement:</strong>
+  <%= @receptionist.requiresreminderforrequirement %>
+</p>
+
+<p>
+  <strong>Reasonforvisit:</strong>
+  <%= @receptionist.reasonforvisit %>
+</p>
+
+<%= link_to 'Edit', edit_receptionist_path(@receptionist) %> |
+<%= link_to 'Back', receptionists_path %>

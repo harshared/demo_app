@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dateofvisit: 2014-06-24
+  pet: MyString
+  customer: MyString
+  requiresreminderforrequirement: MyString
+  reasonforvisit: MyString
+
+two:
+  dateofvisit: 2014-06-24
+  pet: MyString
+  customer: MyString
+  requiresreminderforrequirement: MyString
+  reasonforvisit: MyString

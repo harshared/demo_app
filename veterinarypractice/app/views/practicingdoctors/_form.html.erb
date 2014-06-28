@@ -1,0 +1,41 @@
+<%= form_for(@practicingdoctor) do |f| %>
+  <% if @practicingdoctor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@practicingdoctor.errors.count, "error") %> prohibited this practicingdoctor from being saved:</h2>
+
+      <ul>
+      <% @practicingdoctor.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Nameofpet %><br>
+    <%= f.text_field :Nameofpet %>
+  </div>
+  <div class="field">
+    <%= f.label :typeofpet %><br>
+    <%= f.text_field :typeofpet %>
+  </div>
+  <div class="field">
+    <%= f.label :breed %><br>
+    <%= f.text_field :breed %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.number_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :weight %><br>
+    <%= f.number_field :weight %>
+  </div>
+  <div class="field">
+    <%= f.label :dateoflastvisit %><br>
+    <%= f.date_select :dateoflastvisit %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
